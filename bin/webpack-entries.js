@@ -123,7 +123,7 @@ const entries = {
 	},
 	frontend: {
 		reviews: './assets/js/blocks/reviews/frontend.js',
-		...getBlockEntries( 'frontend.js' ),
+		...getBlockEntries( 'frontend.{t,j}s{,x}' ),
 	},
 	payments: {
 		'wc-payment-method-stripe':
